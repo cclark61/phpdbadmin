@@ -1,0 +1,465 @@
+/****************************************************************************/
+/****************************************************************************/
+/* Page Layout Styles */
+/****************************************************************************/
+/****************************************************************************/
+
+form {
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+	padding: 0 10px;
+}
+
+legend {
+	/* -webkit-margin-bottom-collapse: separate; */
+	margin-bottom : 10px;
+}
+
+legend + * {
+    -webkit-margin-top-collapse: separate;
+    margin-top: 20px;
+}
+
+/***********************************************************************/
+/* Layout Styles */
+/***********************************************************************/
+
+body {
+	height: 100%;
+	background: url('/img/backgrounds/content-bg.jpg');
+}
+
+#page_wrapper {
+	height: auto !important;
+    margin: 0 auto -60px;
+    min-height: 100%;
+}
+
+#main {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#content-wrapper {
+	margin-top: 15px;
+}
+
+#home-welcome {
+	font-size: 36px !important;	
+}
+
+#footer {
+	padding-left: 65px;
+}
+
+#footer .credit {
+	font-size: 12px;
+}
+
+/***********************************************************************/
+/* Header */
+/***********************************************************************/
+#header {
+	/* background: #3b766e; */
+	border-bottom: 3px #aaaaaa solid;
+}
+
+#header.navbar .nav {
+	margin-top: 5px;
+	margin-bottom: 6px;
+}
+
+#header.navbar .nav li a {
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+}
+
+.navbar-brand {
+	margin-top: 0px;
+	padding-bottom: 10px;
+}
+
+.navbar-brand img {
+	height: 35px;
+	margin-right: 10px;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+}
+
+.nav ul li.active_parent a {
+	background: #BFE1F2;
+}
+
+.nav ul li.active a {
+	color: white;
+}
+
+/***********************************************************************/
+/* Back Links / Buttons */
+/***********************************************************************/
+#back_link {
+	background-color: #FAA732;
+    background-image: linear-gradient(to bottom, #FBB450, #F89406);
+    background-repeat: repeat-x;
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+	padding: 5px 7px;
+	margin-top: 10px;
+}
+
+#back_link a {
+	color: white;
+}
+
+.layout-box-title #back-btn2 {
+	margin-top: -4px;
+}
+
+/***********************************************************************/
+/* Side Nav */
+/***********************************************************************/
+.side_navs ul {
+	list-style-type: none;
+	margin-left: 5px;
+}
+
+.side_navs ul li {
+	display: block;
+}
+
+.side_navs ul li a {
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+}
+
+.side_navs ul li.active_parent a {
+	background: #BFE1F2;
+}
+
+/***********************************************************************/
+/* Main Content */
+/***********************************************************************/
+#content_data {
+	/* padding: 0 0 10px; */
+}
+
+#module_path_breadcrumbs {
+	margin-bottom: 10px;	
+}
+
+.xdebug-error {
+	margin-top: 40px;
+}
+
+.breadcrumb .fa {
+	margin-right: 0;
+}
+
+/***********************************************************************/
+/* Widget Box Styles */
+/***********************************************************************/
+.layout-box {
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+	padding: 0 5px;
+	margin-bottom: 10px;
+}
+
+.layout-box-title .icon {
+	float: left;
+	margin-right: 5px;
+	margin-left: 7px;
+}
+
+.layout-box-title {
+	height: 43px;
+  	border: 1px solid #ddd;
+	margin-bottom: -1px;
+  	padding: 10px;
+  	background-color: #fafafa;
+  	background-image: -moz-linear-gradient(top, #fafafa, #efefef);
+  	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fafafa), to(#efefef));
+  	background-image: -webkit-linear-gradient(top, #fafafa, #efefef);
+  	background-image: -o-linear-gradient(top, #fafafa, #efefef);
+  	background-image: linear-gradient(to bottom, #fafafa, #efefef);
+  	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fafafa', endColorstr='#efefef', GradientType=0);
+  	-webkit-box-shadow: none;
+     	-moz-box-shadow: none;
+          box-shadow: none;
+  	-webkit-border-radius: 5px 5px 0px 0px;
+       -moz-border-radius: 5px 5px 0px 0px;
+          	border-radius: 5px 5px 0px 0px;
+	overflow: hidden;
+}
+
+.layout-box-title .break {
+    border-left: 1px solid #FCFCFC;
+    border-right: 1px solid #DDDDDD;
+    margin: -10px 10px -12px;
+    padding: 15px 0 12px;
+}
+
+.layout-box-title h2 {
+    color: #646464;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+    margin-top: 2px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.layout-box-title .layout-box-actions {
+    float: right;
+    margin-top: 1px;
+}
+
+.layout-box-content {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #DDDDDD;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+    margin-top: -1px;
+    padding: 10px;
+}
+
+/***********************************************************************/
+/* Horizontal Form */
+/***********************************************************************/
+.form-horizontal {
+	width: 100%;	
+}
+
+.form-horizontal .control-label {
+    float: left;
+    margin-right: 15px;
+    padding-top: 5px;
+    text-align: left;
+    width: 100px;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+.form-horizontal .controls {
+	float: left;
+	display: inline-block;
+	margin-left: 0;
+}
+
+/***********************************************************************/
+/***********************************************************************/
+/* Responsive CSS Styles */
+/***********************************************************************/
+/***********************************************************************/
+
+/***********************************************************/
+/* Large desktop */
+/***********************************************************/
+@media (min-width: 1200px) {
+
+	input.wide,
+	textarea.wide {
+	    width: 500px;
+	}
+
+	#main .side_navs {
+		width: 13% !important;
+	}
+
+	#main .content_col {
+		width: 84% !important;
+	}
+
+	#content-wrapper .col-md-12 .layout-box-content {
+		min-height: 500px;
+	}
+
+}
+
+/***********************************************************/
+/* Small Desktop */
+/***********************************************************/
+@media (min-width: 992px) {
+
+	input.wide,
+	textarea.wide {
+	    width: 412px;
+	}
+
+	#content-wrapper .col-md-12 .layout-box-content {
+		min-height: 500px;
+	}
+
+	#content_footer {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+/***********************************************************/
+/* Portrait tablet to landscape and Desktop */
+/***********************************************************/
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.content_col {
+		width: 95% !important;
+	}
+
+	.navbar-fixed-top {
+		margin-bottom: 0;
+	}
+
+	input.wide,
+	textarea.wide {
+	    width: 412px;
+	}
+
+
+	#content-wrapper .col-md-12 .layout-box-content {
+		min-height: 500px;
+	}
+
+	#content_footer {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+/***********************************************************/
+/* Greater than Portrait Tablet */
+/***********************************************************/
+@media (min-width: 768px) {
+
+	.home_nav > li {
+		display: none;
+	}
+
+	.home_nav > li.dropdown {
+		display: inherit;
+	}
+	
+}
+
+/***********************************************************/
+/* Landscape phone to portrait tablet */
+/***********************************************************/
+@media (max-width: 767px) {
+
+	.home_nav > li {
+		display: inherit;
+	}
+	.home_nav > li.dropdown {
+		display: none;
+	}
+
+	.table-responsive {
+		padding: 5px 8px;
+		-moz-border-radius: 3px;
+		-webkit-radius: 3px;
+		border-radius: 3px;
+	}
+
+	#header .navbar-brand {
+		padding-top: 11px;
+	}
+
+	#main.container {
+		padding-top: 0;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 60px;
+	}
+	
+	#back-btn {
+		margin: -10px 5px 10px;
+		padding-top: 10px;
+	}
+
+	#back-btn .btn {
+		display: block;
+	}
+
+	#content-wrapper {
+		margin-top: 0;
+	}
+
+	#content-wrapper .col-md-12 {
+		padding-left: 0;
+		padding-right: 0;		
+	}
+
+	#content-wrapper .col-md-12 .layout-box-content {
+		min-height: 500px;
+	}
+
+	#footer {
+		padding-left: 0;
+	}
+
+	#footer .credit {
+		margin-top: 5px;
+	}
+
+	input.wide,
+	textarea.wide {
+	    width: 300px;
+	}
+
+	#content_footer {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+/***********************************************************/
+/* Landscape phones */
+/***********************************************************/
+@media (max-width: 480px) {
+
+	#content-wrapper .col-md-12 .layout-box-content {
+		min-height: 300px;
+	}
+
+	#content_footer {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	/* 
+	Bug fix, bootstrap was using position: fixed
+	Which was not allowing a clickable link on mobile... strange
+	 */
+	.nav-collapse .dropdown-menu {
+		position: relative !important;
+	}
+
+	input.wide,
+	textarea.wide {
+	    width: 300px;
+	}
+	
+}
+
+/***********************************************************/
+/* Portrait phones and down */
+/***********************************************************/
+@media (max-width: 320px) {
+
+	input.wide,
+	textarea.wide {
+	    width: 206px;
+	}
+
+}

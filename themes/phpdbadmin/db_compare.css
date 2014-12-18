@@ -1,0 +1,112 @@
+/*****************************************************/
+/* Database Compare Table Styles */
+/*****************************************************/
+
+table.db_compare th {
+	text-align: center;
+}
+
+table.db_compare td {
+	text-align: center;
+	background: #D6E9C6;
+}
+
+table.db_compare th.ds_name {
+	width: 35%;	
+}
+
+table.db_compare th.tbl_name {
+	text-align: left;
+}
+
+table.db_compare th.table_name {
+	text-align: left;
+	width: 30%;
+}
+
+table.db_compare td.no_exist {
+	background: #FFA0A0; /* #FF8080 */
+}
+
+table.db_compare td.no_match {
+	background: #FFFFB3; /* ffff99 */
+}
+
+table.db_compare td.resolve {
+	background: #ffffff;
+}
+
+table.db_compare td.created {
+	background: #D9EDF7;
+	font-style: italic;
+}
+
+table.db_compare td.plain {
+	background: #ffffff;
+	text-align: left;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Responsive CSS Styles */
+/*****************************************************************************/
+/*****************************************************************************/
+
+/***********************************************************/
+/* Large desktop */
+/***********************************************************/
+@media (min-width: 1200px) {
+
+
+}
+
+/***********************************************************/
+/* Small Desktop */
+/***********************************************************/
+@media (min-width: 980px) {
+
+	
+}
+
+/***********************************************************/
+/* Portrait tablet to landscape and Desktop */
+/***********************************************************/
+@media (min-width: 768px) and (max-width: 979px) {
+
+	
+}
+
+/***********************************************************/
+/* Tablet */
+/***********************************************************/
+@media (max-width: 1024px) {
+
+
+}
+
+/***********************************************************/
+/* Landscape phone to portrait tablet */
+/***********************************************************/
+@media (max-width: 767px) {
+
+	table.db_compare th.ds_name {
+		width: 25%;	
+	}
+
+}
+
+/***********************************************************/
+/* Landscape phones */
+/***********************************************************/
+@media (max-width: 480px) {
+
+
+}
+
+/***********************************************************/
+/* Portrait phones and down */
+/***********************************************************/
+@media (max-width: 320px) {
+
+
+}

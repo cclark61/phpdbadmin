@@ -1,0 +1,295 @@
+/*********************************************************************/
+/* Workflow Styles */
+/*********************************************************************/
+.icon_col {
+	width: 5%;
+}
+
+.full_name_col {
+	width: 50%;
+}
+
+/*********************************************************************/
+/* View Styles */
+/*********************************************************************/
+
+/***************************************/
+/* Record Header */
+/***************************************/
+.record_header {
+    margin: 5px 0 10px;
+}
+
+.record_header h3 {
+	margin: 0;
+}
+
+/***************************************/
+/* Record Header Links */
+/***************************************/
+.record_links {
+	padding-left: 10px;
+}
+
+.record_links a {
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.record_links .fa {
+	margin-right: 0;	
+}
+
+/***************************************/
+/* Details */
+/***************************************/
+.record_details {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.record_details .row {
+	margin-bottom: 5px;	
+}
+
+.record_details .detail_label {
+	/* background: #cccccc; */
+	color: #333333;
+	font-weight: bold;
+	width: 150px;
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+}
+
+.record_details .detail_label,
+.record_details .detail_data {
+	float: left;
+}
+
+.record_sub_items fieldset {
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.record_sub_items table td {
+	padding: 3px;
+	padding-left: 5px;
+}
+
+.record_sub_items img {
+	vertical-align: middle;
+	padding-bottom: 2px;
+}
+
+/******************************************************/
+/* Sub-section */
+/******************************************************/
+.sub_section {
+	margin-top: 20px;
+}
+
+.sub_section_items table .contact_info em {
+	display: inline-block;
+	width: 75px;
+}
+
+/****************************************************************/
+/* Record View Sub Nav */
+/****************************************************************/
+.rv_sub_nav {
+	margin-bottom: 15px;
+}
+
+.rv_sub_nav .btn-primary a {
+	color: white !important;
+}
+
+/****************************************************************/
+/* Links Box */
+/****************************************************************/
+.links_box {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.links_box ul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.links_box ul li {
+	display: inline-block;
+}
+
+.links_box img {
+	padding-bottom: 2px;
+}
+
+/******************************************************/
+/* Project Todo Columns */
+/******************************************************/
+#project_tasks fieldset table td.user_col {
+	width: 15%;
+}
+
+#project_tasks fieldset table td.due_date_col,
+#project_tasks fieldset table td.priority_col {
+	width: 10%;
+}
+
+/******************************************************/
+/* Statuses */
+/******************************************************/
+
+/* Generic Yes / No Status */
+span.yes { background: green; }
+span.no { background: gray; }
+span.no2 { background: red; }
+
+/* Project Status */
+span.active { background: green; }
+span.inactive { background: gray; }
+
+/* Project Status */
+span.p_s0 { background: green; }
+span.p_s1 { background: orange; }
+span.p_s2 { background: gray; }
+span.p_s3 { background: #4040D9; }
+span.p_s4 { background: red; }
+
+/* Project Archive Status */
+span.pa_s0 { background: green; }
+span.pa_s1 { background: gray; }
+
+/* Order Status */
+.o_s_pend { background: #6060FF; }
+.o_s_0 { background: green; }
+.o_s_1 { background: orange; }
+.o_s_2 { background: gray; }
+.o_s_approve2 { background: #809AB3; }
+.o_s_cancel { background: #CD8080; }
+.o_s_success { background: #326898; } /* #428BCA */
+
+/* Paid / Approved Status */
+span.paid_0, span.approved_0 { background: gray; }
+span.paid_1, span.approved_1 { background: green; }
+span.paid_2, span.approved_2 { background: red; }
+
+/* Priorities */
+.priority0 { background: #666666; }
+.priority1 { background: blue; }
+.priority2 { background: green; }
+.priority3 { background: orange; }
+.priority4 { background: red; }
+
+/* Task Priorities */
+span.task_priority0 { color: blue; }
+span.task_priority1 { color: green; }
+span.task_priority2 { color: #999933; }
+span.task_priority3 { color: orange; }
+span.task_priority4 { color: red; }
+
+/******************************************************/
+/* Button Colors */
+/******************************************************/
+.btn-origin {
+	background: #9E8FB4;
+	border: 1px #9281AA solid;
+	color: white;
+}
+
+.btn-origin:hover {
+	background: #816E9D;
+	color: white;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Responsive CSS Styles */
+/*****************************************************************************/
+/*****************************************************************************/
+
+/***********************************************************/
+/* Large desktop */
+/***********************************************************/
+@media (min-width: 1200px) {
+
+
+}
+
+/***********************************************************/
+/* Small Desktop */
+/***********************************************************/
+@media (min-width: 980px) {
+
+	
+}
+
+/***********************************************************/
+/* Portrait tablet to landscape and Desktop */
+/***********************************************************/
+@media (min-width: 768px) and (max-width: 979px) {
+
+	
+}
+
+/***********************************************************/
+/* Tablet */
+/***********************************************************/
+@media (max-width: 1024px) {
+
+
+
+}
+
+/***********************************************************/
+/* Landscape phone to portrait tablet */
+/***********************************************************/
+@media (max-width: 767px) {
+
+	.detail_item {
+		clear: none;
+		float: none;
+		padding-bottom: 5px;
+	}
+
+}
+
+/***********************************************************/
+/* Landscape phones */
+/***********************************************************/
+@media (max-width: 480px) {
+
+	.record_links {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.record_links a {
+		margin-right: 10px;
+		padding: 7px 11px;
+	}
+
+	.detail_item {
+		clear: none;
+		float: none;
+	}
+	
+	.record_details .detail_item .detail_data {
+		clear: left;
+		padding-left: 30px;
+		margin-bottom: 12px;
+	}
+
+}
+
+/***********************************************************/
+/* Portrait phones and down */
+/***********************************************************/
+@media (max-width: 320px) {
+
+
+}

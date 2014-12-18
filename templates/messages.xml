@@ -1,0 +1,33 @@
+<message_list>
+    <msg code="1" show_login="1" type="warn">
+        <text>Incorrect Login!!</text>
+    </msg>
+    <msg code="2" type="warn">
+        <text>Access Denied!!</text>
+        <text>You do not have administrative rights.</text>
+        <back_desc>Click here to back to the home page.</back_desc>
+    </msg>
+    <msg code="3" show_login="1" type="success">
+        <text>Thank you for using</text>
+    </msg>
+    <msg code="4" show_login="1" type="warn">
+        <text>You are not Logged in!!</text>
+    </msg>
+    <msg code="5" type="error">
+        <text>Your account is disabled!!</text>
+        <text>Please contact your administrator.</text>
+    </msg>
+    <msg code="6" type="error">
+        <text>Accessed Denied!!</text>
+        <text>You do not have access to this module.</text>
+        <back_desc>Click here to back to the home page.</back_desc>
+    </msg>
+    <msg code="7" show_login="0" type="success">
+        <text>Successfully logged out!</text>
+        <login_desc>Click here to log back in.</login_desc>
+    </msg>
+    <msg code="8" type="error">
+        <text>Configuration Error!!</text>
+        <text>Please contact your administrator.</text>
+    </msg>
+</message_list>

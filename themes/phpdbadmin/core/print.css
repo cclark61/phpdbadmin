@@ -1,0 +1,45 @@
+/*********************************************************/
+/*********************************************************/
+/* Print Styles */
+/*********************************************************/
+/*********************************************************/
+
+.no_print {
+	display: none;
+}
+
+.print {
+	display: block;
+}
+
+a:link:after, a:visited:after {
+    content: "";
+}
+
+.no_print {
+	display: none;
+}
+
+.print {
+	display: block;
+}
+
+a[href]:after {
+    content: none;
+}
+  
+.btn {
+	display: none;
+}
+
+.layout-box-title {
+	display: none;
+}
+
+.layout-box-content {
+	border: 0;
+}
+
+.filters, filters_wrapper {
+	display: none;
+}

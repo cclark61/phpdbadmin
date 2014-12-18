@@ -1,0 +1,10 @@
+{
+    "name": "phpDBAdmin",
+    "version": "0.5.0",
+    "dependencies": {
+		"bootstrap": ">= 3.3.0",
+        "jquery": ">= 1.11.1",
+        "fontawesome": ">= 4.2.0",
+        "AppJack": "https://github.com/cclark61/AppJack.git#0.5.2"
+    }
+}

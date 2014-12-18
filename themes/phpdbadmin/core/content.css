@@ -1,0 +1,658 @@
+/****************************************************************************/
+/****************************************************************************/
+/* Page Content Styles */
+/****************************************************************************/
+/****************************************************************************/
+
+.xdebug-var-dump {
+	margin-top: 60px;
+}
+
+#content_data {
+	margin: 0 10px;
+}
+
+iframe {
+    border: 1px #eeeeee solid;
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+}
+
+.btn-group.item-options {
+	margin-right: 15px;	
+}
+
+#change-password-form {
+	margin-top: 30px;
+}
+
+/*****************************************************************************/
+/* Sub-modules List Styles */
+/*****************************************************************************/
+.sub-modules-nav .module-list-item {
+	margin-bottom: 30px;
+}
+
+.sub-modules-nav .title {
+	margin: 10px 0 10px;
+}
+
+.sub-modules-nav .module-list-item p {
+	max-width: 700px;
+}
+
+.sub-modules-nav .title .fa {
+	padding-bottom: 4px;
+}
+
+.sub-modules-nav .title span {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.sub-modules-nav p {
+	margin: 15px 0 0 40px;
+}
+
+/*****************************************************************************/
+/* Icon Styles */
+/*****************************************************************************/
+.top_mod_links a [class^="fa-"],
+.top_mod_links a [class*=" fa-"] {
+	margin-right: 5px;
+}
+
+[class^="fa-"],
+[class*=" fa-"] {
+	margin-right: 5px;
+}
+
+li a .fa {
+	width: 15px;
+}
+
+.sub-modules-nav a .fa,
+.home-menu a .fa {
+	background: #708090;
+	color: white;
+	border-radius: 3px;
+	padding: 5px;
+	text-align: center;
+	margin-right: 15px;
+}
+
+.sub-modules-nav a .fa,
+.home-menu a .fa {
+	width: 25px;
+}
+
+/*****************************************************************************/
+/* Top Right Nav Icon Styles */
+/*****************************************************************************/
+.dropdown-menu-right li.active .fa 	{ color: #333333; }
+.dropdown-menu-right .fa-user 		{ color: #0248D3; }
+.dropdown-menu-right .fa-lock 		{ color: #D98200; }
+.dropdown-menu-right .fa-code 		{ color: #428BCA; }
+.dropdown-menu-right .fa-list-ul 	{ color: #62B13A; }
+.dropdown-menu-right .fa-sign-out 	{ color: #0248D3; }
+
+/*****************************************************************************/
+/* Sub-modules Nav Icon Styles */
+/*****************************************************************************/
+.sub-modules-nav a .fa-usd 				{ background: #337147; }
+.sub-modules-nav a .fa-check		 	{ background: #308014; }
+.sub-modules-nav a .fa-plus-circle 		{ background: #308014; }
+.sub-modules-nav a .fa-minus-circle 	{ background: #BF0000; }
+.sub-modules-nav a .fa-file-text 		{ background: #428BCA; }
+.sub-modules-nav a .fa-lock 			{ background: #708090; }
+.sub-modules-nav a .fa-database			{ background: #BF0000; }
+.sub-modules-nav a .fa-tasks 			{ background: #125756; }
+.sub-modules-nav a .fa-comments-o 		{ background: #62B13A; }
+.sub-modules-nav a .fa-comment-o 		{ background: #62B13A; }
+.sub-modules-nav a .fa-file-o 			{ background: #DF6301; }
+.sub-modules-nav a .fa-desktop 			{ background: #0248D3; }
+.sub-modules-nav a .fa-user,
+.sub-modules-nav a .fa-search 			{ background: #0248D3; }
+.sub-modules-nav a .fa-group,
+.sub-modules-nav a .fa-users 			{ background: #BF0000; }
+.sub-modules-nav a .fa-globe 			{ background: #879E43; }
+.sub-modules-nav a .fa-car 				{ background: #775530; }
+.sub-modules-nav a .fa-building			{ background: #5F4B77; }
+.sub-modules-nav a .fa-building-o		{ background: #1E92A9; }
+.sub-modules-nav a .fa-clock-o	 		{ background: #81D26C; }
+.sub-modules-nav a .fa-list,
+.sub-modules-nav a .fa-list-ol 			{ background: #62b03A; }
+.sub-modules-nav a .fa-check-square-o	{ background: #308014; }
+.sub-modules-nav a .fa-code	 			{ background: #428BCA; }
+.sub-modules-nav a .fa-bolt	 			{ background: #ff9900; }
+.sub-modules-nav a .fa-refresh	 		{ background: #1E92A9; }
+
+/*****************************************************************************/
+/* App Menu */
+/*****************************************************************************/
+.home_nav .fa-bolt	 	{ color: #ff9900; }
+.home_nav .fa-database		{ color: #BF0000; }
+.home_nav .fa-list		{ color: #62b03A; }
+.home_nav .fa-search	{ color: #0248D3; }
+.home_nav .fa-refresh	{ color: #1E92A9; }
+
+/*****************************************************************************/
+/* General Styles */
+/*****************************************************************************/
+a {
+	
+}
+
+/*****************************************************************************/
+/* Server Side Validation Styles */
+/*****************************************************************************/
+.ssv_header {
+	margin-bottom: 10px !important;
+}
+
+.ssv_messages {
+	margin-bottom: 20px;
+}
+
+.ajax_response .ssv_messages {
+	margin-top: 8px;
+}
+.ajax_response .ssv_messages h3 {
+	font-size: 14px;
+}
+
+/*****************************************************************************/
+/* Record Set Styles */
+/*****************************************************************************/
+.rs .statuses .status {
+	margin-left: 7px;
+}
+
+.rs .extra_data_box {
+	margin-top: 10px;	
+}
+
+.empty_rs {
+	/* margin-top: 10px; */
+}
+
+.table .fa,
+.rs .fa {
+	margin-right: 0;
+}
+
+.table .text-with-icon .fa, 
+.rs .text-with-icon .fa {
+	margin-right: 7px;
+}
+
+.table-responsive {
+	padding: 5px;
+}
+
+.table .btn-group .fa,
+.rs .btn-group .fa {
+	margin-right: 5px;
+}
+
+/*****************************************************************************/
+/* Filters */
+/*****************************************************************************/
+.filter_wrapper {
+	
+}
+
+.filters {
+	padding: 10px;	
+}
+
+.filter_wrapper label,
+.filter_wrapper select {
+	display: inline-block;
+}
+
+.filter_wrapper select {
+	width: auto;
+}
+
+/*****************************************************************************/
+/* Forms / Input Fields */
+/*****************************************************************************/
+.inline input[type="radio"],
+.inline input[type="checkbox"] {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	/* margin-top: 7px; */
+}
+
+.access_checkbox input[type="checkbox"] {
+	margin: 0 5px 5px;
+}
+
+textarea.editable-input {
+	width: 100%;
+}
+
+.select-width-auto select {
+	width: auto;
+}
+
+button.btn[type="submit"] {
+	margin-top: 20px;	
+}
+
+#editor {
+	overflow: scroll;
+	max-height: 800px;
+	min-height: 200px;
+	border: 1px #cccccc solid;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+}
+
+form .btn-group {
+	margin-top: 5px;
+}
+
+form .dropdown-menu {
+	padding: 3px;
+}
+
+form .text-content-field {
+	display: block;
+	margin-top: 5px;
+}
+
+form .well {
+	margin-top: 20px;
+}
+
+form .well .btn {
+	margin-top: 0;
+}
+
+#main form .form-group {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+form fieldset fieldset legend {
+	font-size: 18px;
+}
+
+.static-field {
+	display: block;
+	margin-top: 5px;	
+}
+
+.form-group input,
+.form-group select {
+	display: inline-block;
+}
+
+/*****************************************************************************/
+/* Top Module Links */
+/*****************************************************************************/
+.top_mod_links {
+	padding: 3px;
+    background: #fafafa;
+    margin-left: 0;
+    margin-bottom: 10px;
+    border: 1px #f3f3f3 solid;
+	-moz-border-radius: 5px;
+	-webkit-radius: 5px;
+	border-radius: 5px;
+}
+
+.top_mod_links {
+	background: transparent;
+	border: 0;
+}
+
+.top_mod_links ul {
+	margin: 0;
+    padding-left: 5px;
+}
+
+.top_mod_links li {
+    list-style: none;
+    padding: 2px;
+    display: inline-block;
+}
+
+.top_mod_links a {
+    /* padding: 2px; */
+}
+
+/*****************************************************************************/
+/* Table Styles */
+/*****************************************************************************/
+table td a.btn {
+	padding: 1px 5px;
+}
+
+#main .table-responsive table td {
+	padding-left: 5px;
+}
+
+/*****************************************************************************/
+/* Misc. Styles */
+/*****************************************************************************/
+.search_param_box div {
+	padding-left: 10px;
+}
+
+.header_title {
+	color: #333333;
+	margin-bottom: 10px;
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.form_notes {
+	font-size: 11px;
+	font-style: italic;
+	color: #ff4040;
+}
+
+.no_setup {
+	color: red;
+	font-weight: bold;
+}
+
+.notice {
+	color: blue;
+	font-weight: bold;
+}
+
+/****************************************************************/
+/* Messages */
+/****************************************************************/
+.ajax_response {
+	margin-left: 10px;
+}
+
+.text_block {
+	margin: 5px;
+}
+
+.text_block img {
+	vertical-align: middle;
+	margin-right: 5px;
+	max-width: 22px;
+	padding-bottom: 2px;
+}
+
+/****************************************************************/
+/* Alerts */
+/****************************************************************/
+.alert {
+	padding: 8px;
+}
+
+.alert em {
+	text-decoration: underline;
+}
+
+.alert.top {
+	/* margin-bottom: -10px; */
+	margin-top: 5px;
+}
+
+/****************************************************************/
+/* Form Messages */
+/****************************************************************/
+.del_form_message {
+	color: red;
+}
+
+.del_form_message em {
+	color: #666666;
+	text-decoration: underline;
+	padding-right: 3px;
+}
+
+.info_form_message {
+	color: darkblue;
+}
+
+.info_form_message em {
+	color: #666666;
+}
+
+/*****************************************************************************/
+/* Toggler Styles */
+/*****************************************************************************/
+.toggler {
+	/* background: white; */
+	cursor: pointer;
+	padding: 1px 3px;
+}
+
+/*****************************************************************************/
+/* Home Menu Styles */
+/*****************************************************************************/
+.home-menu li a {
+	font-size: 16px;
+}
+
+/*****************************************************************************/
+/* Button Styling */
+/*****************************************************************************/
+
+/********************************/
+/* Download */
+/********************************/
+.btn-download {
+  color: #ffffff;
+  background-color: #70AA70;
+  border-color: #6BA76B;
+}
+
+.btn-download:hover,
+.btn-download:focus,
+.btn-download:active,
+.btn-download.active,
+.open .dropdown-toggle.btn-download {
+  color: #ffffff;
+  background-color: #408D40;
+  border-color: #367836;
+}
+
+/********************************/
+/* Brown */
+/********************************/
+.btn-brown {
+  color: #ffffff;
+  background-color: #C7AB70;
+  border-color: #BD9C58;
+}
+
+.btn-brown:hover,
+.btn-brown:focus,
+.btn-brown:active,
+.btn-brown.active,
+.open .dropdown-toggle.btn-brown {
+  color: #ffffff;
+  background-color: #BD9C58;
+  border-color: #B38D40;
+}
+
+/********************************/
+/* Purple */
+/********************************/
+.btn-purple {
+  color: #ffffff;
+  background-color: #9980E6;
+  border-color: #8060E0;
+}
+
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  color: #ffffff;
+  background-color: #8060E0;
+  border-color: #6640D9;
+}
+
+/*****************************************************************************/
+/* Administration Styles */
+/*****************************************************************************/
+#user_list .record {
+	padding: 10px 5px;
+}
+
+/*****************************************************************************/
+/* Report Module Styles */
+/*****************************************************************************/
+.reports_list ul {
+	list-style-type: none;
+}
+
+/*****************************************************************************/
+/* Query Runner Styles */
+/*****************************************************************************/
+#prev-queries {
+	height: 200px;
+	overflow-y: scroll;
+	margin-bottom: 10px;
+}
+
+#prev-queries legend + * {
+	margin-top: 0;
+}
+
+#prev-queries pre {
+	margin-right: 10px;
+}
+
+#qr-records td {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+/*****************************************************************************/
+/* Data Sync Styles */
+/*****************************************************************************/
+ul.field-list {
+	list-style-type: none;
+	margin-top: 0;
+}
+
+.data-sync-header {
+	margin-bottom: 20px;
+}
+
+.data-sync-table th,
+.data-sync-table td {
+	padding: 3px !important;
+}
+
+.add_rec_to_ds,
+.del_rec_from_ds {
+	border-radius: 3px;
+}
+
+.exists { background: #DFF0D8; }
+.not_exists { background: #EBCCD1; }
+.different { background: #FAEBCC;}
+
+.ds_rec_status {
+	text-align: right;
+	border-radius: 3px;
+}
+
+.ds_rec_status a {
+	margin-bottom: 1px;
+	margin-right: 2px;
+	margin-left: 16px;
+}
+
+.ds_rec_status span {
+	display: inline-block;
+	margin-top: 2px;
+}
+
+.ds_rec_status.exists {
+	color: #4CAE4C;
+}
+
+.ds_rec_status.not_exists {
+	color: #D9534F;
+}
+
+.msg_no_recs {
+	padding: 10px 10px 30px;
+}
+
+/*****************************************************************************/
+/*****************************************************************************/
+/* Responsive CSS Styles */
+/*****************************************************************************/
+/*****************************************************************************/
+
+/***********************************************************/
+/* Large desktop */
+/***********************************************************/
+@media (min-width: 1200px) {
+
+
+}
+
+/***********************************************************/
+/* Small Desktop */
+/***********************************************************/
+@media (min-width: 980px) {
+
+	
+}
+
+/***********************************************************/
+/* Portrait tablet to landscape and Desktop */
+/***********************************************************/
+@media (min-width: 768px) and (max-width: 979px) {
+
+	
+}
+
+/***********************************************************/
+/* Tablet */
+/***********************************************************/
+@media (max-width: 1024px) {
+
+
+}
+
+/***********************************************************/
+/* Landscape phone to portrait tablet */
+/***********************************************************/
+@media (max-width: 767px) {
+
+
+}
+
+/***********************************************************/
+/* Landscape phones */
+/***********************************************************/
+@media (max-width: 480px) {
+
+
+}
+
+/***********************************************************/
+/* Portrait phones and down */
+/***********************************************************/
+@media (max-width: 320px) {
+
+
+}

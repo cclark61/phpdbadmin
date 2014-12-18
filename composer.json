@@ -1,0 +1,16 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cclark61/phpOpenFW"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cclark61/phpOpenPlugins"
+        }
+    ],
+    "require" : {
+        "cclark61/phpOpenFW" : "1.2.*",
+        "cclark61/phpOpenPlugins" : "0.5.*"
+    }
+}

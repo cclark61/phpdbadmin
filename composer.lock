@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d7b53cd8654b9cffb7489e0ab1c87fac",
+    "packages": [
+        {
+            "name": "cclark61/phpOpenFW",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cclark61/phpOpenFW.git",
+                "reference": "4d8e80dd10ba1f912a921ece0b54c4cbaedc67f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/cclark61/phpOpenFW/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/cclark61/phpOpenFW/tree/1.2.3",
+                "issues": "https://github.com/cclark61/phpOpenFW/issues"
+            },
+            "time": "2014-08-28 20:15:28"
+        },
+        {
+            "name": "cclark61/phpOpenPlugins",
+            "version": "0.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cclark61/phpOpenPlugins.git",
+                "reference": "ee9ad004068680183c60860d4ad3b068d2b4168f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/cclark61/phpOpenPlugins/archive/master.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library",
+            "support": {
+                "source": "https://github.com/cclark61/phpOpenPlugins/tree/0.5.6",
+                "issues": "https://github.com/cclark61/phpOpenPlugins/issues"
+            },
+            "time": "2014-08-28 14:39:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}

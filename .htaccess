@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^([^/\.]+).html$ index.php?page=$1 [L]
+RewriteRule ^(themes|img|javascript|bower_components) - [L]
+RewriteRule ^.*$ index.php [L,qsa]
