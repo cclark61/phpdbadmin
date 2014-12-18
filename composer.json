@@ -10,7 +10,7 @@
         }
     ],
     "require" : {
-        "cclark61/phpOpenFW" : "1.2.*",
-        "cclark61/phpOpenPlugins" : "0.5.*"
+        "cclark61/phpOpenFW" : ">=1.2.3",
+        "cclark61/phpOpenPlugins" : ">=0.5.6"
     }
 }
