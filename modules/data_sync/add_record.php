@@ -10,7 +10,7 @@
 * @link			http://www.emonlade.net/phpdbadmin/
 **/
 //************************************************************
-file_put_contents('status.txt', 'test');
+
 global $mysql_bind_types;
 
 ob_start();
