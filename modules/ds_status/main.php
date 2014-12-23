@@ -41,16 +41,17 @@ foreach ($_SESSION['data_sources'] as $ds) {
 		$t->td('Invalid Data Source', $num_cols - 1);
 	}
 	else {
+		$port = (!empty($_SESSION[$ds]['port'])) ? ($_SESSION[$ds]['port']) : (0);
+		$source = (!empty($_SESSION[$ds]['source'])) ? ($_SESSION[$ds]['source']) : ('--');
 		$t->td($ds);
 		$t->td($_SESSION[$ds]['type']);
 		$t->td($_SESSION[$ds]['server']);
-		$t->td($_SESSION[$ds]['port']);
-		$tmp_source = ($_SESSION[$ds]['source'] != '') ? ($_SESSION[$ds]['source']) : ('--');
-		$t->td($tmp_source);
-		$status = is_service_available($_SESSION[$ds]['server'], $_SESSION[$ds]['port']);
+		$t->td($port);
+		$t->td($source);
+		$status = is_service_available($_SESSION[$ds]['server'], $port);
 		$status_msg = ($status) ? ('Online') : ('Offline');
 		$status_class = ($status) ? ('success') : ('danger');
-		$t->td(new gen_element('span', $status_msg, array('class' => "label label-{$status_class}")));
+		$t->td(span($status_msg, array('class' => "label label-{$status_class}")));
 	}
 }
 

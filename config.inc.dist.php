@@ -79,8 +79,8 @@ $config_arr["auth_pass_security"] = "sha1";
 // Data Sources
 //***************************************************************************
 //***************************************************************************
-if (file_exists(__DIR__ . 'config/data_sources.php')) {
-	include(__DIR__ . 'config/data_sources.php');
+if (file_exists(__DIR__ . '/config/data_sources.php')) {
+	include(__DIR__ . '/config/data_sources.php');
 }
 
 //***************************************************************************

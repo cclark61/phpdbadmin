@@ -15,6 +15,25 @@
 
 //=========================================================================
 //=========================================================================
+// Get Data Sources List
+//=========================================================================
+//=========================================================================
+function get_data_sources_list()
+{
+	if (empty($_SESSION['data_sources'])) {
+		return false;
+	}
+	else if (!is_array($_SESSION['data_sources'])) {
+		return false;
+	}
+	$datasrc_arr = $_SESSION['data_sources'];
+	array_unshift($datasrc_arr, '');
+	$datasrc_arr = array_combine($datasrc_arr, $datasrc_arr);
+	return $datasrc_arr;
+}
+
+//=========================================================================
+//=========================================================================
 /**
 * Return a Twitter Bootstrap CSS based Icon
 *

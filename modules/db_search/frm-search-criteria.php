@@ -14,8 +14,7 @@
 //============================================================
 // Data Sources
 //============================================================
-$datasrc_arr = array('') + $_SESSION['data_sources'];
-$datasrc_arr = array_combine($datasrc_arr, $datasrc_arr);
+$datasrc_arr = get_data_sources_list();
 
 //============================================================
 // Remove Non-MySQL Data Sources
