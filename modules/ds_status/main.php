@@ -60,5 +60,5 @@ foreach ($_SESSION['data_sources'] as $ds) {
 //****************************************************************
 ob_start();
 $t->render();
-print div(ob_get_clean(), ['class' => 'table-responsive']);
+print div(ob_get_clean(), array('class' => 'table-responsive'));
 

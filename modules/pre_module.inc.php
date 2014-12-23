@@ -89,7 +89,7 @@ $gen_message = array();
 //**************************************************
 $top_mod_links = array();
 $breadcrumbs = array();
-$curr_path = [];
+$curr_path = array();
 
 //**********************************************************
 // Module URLs

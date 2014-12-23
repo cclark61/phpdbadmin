@@ -37,7 +37,7 @@ if (AUTH_OK & !empty($_SESSION['modules_list'])) {
 	//==========================================================
 	$main_menu = '';
 	foreach ($_SESSION['modules_list']['modules']['sub-modules'] as $mod) {
-		$link_attrs = [];
+		$link_attrs = array();
 		if ($this->page_url == "/index.php/{$mod['index']}/") {
 			$link_attrs['class'] = 'active';
 		}
