@@ -38,10 +38,10 @@ foreach ($recs as $key => &$rec) {
 	$delete_link = add_url_params("{$mod_base_url}sync_sets/", array("action" => "confirm_delete", "id" => $id));
 	$items_link = add_url_params("{$mod_base_url}sync_sets/", array("action" => "items", "id" => $id));
 	$view_link = "{$mod_base_url}{$id}/";
-	$rec["actions"] = anchor($view_link, icon('fa fa-refresh'), ['class' => 'btn btn-primary']);
-	$rec["actions"] .= anchor($items_link, icon('fa fa-list'), ['class' => 'btn btn-purple']);
-	$rec["actions"] .= anchor($edit_link, $edit_image, ['class' => 'btn btn-info']);
-	$rec["actions"] .= anchor($delete_link, $delete_image, ['class' => 'btn btn-danger']);
+	$rec["actions"] = anchor($view_link, icon('fa fa-refresh'), array('class' => 'btn btn-primary'));
+	$rec["actions"] .= anchor($items_link, icon('fa fa-list'), array('class' => 'btn btn-purple'));
+	$rec["actions"] .= anchor($edit_link, $edit_image, array('class' => 'btn btn-info'));
+	$rec["actions"] .= anchor($delete_link, $delete_image, array('class' => 'btn btn-danger'));
 	if (isset($change_id) && $id == $change_id) { $change_row = $key; }
 
 	//===================================================================
@@ -71,5 +71,5 @@ $table->identify("", "table table-striped rs rs-striped");
 
 ob_start();
 $table->render();
-print div(ob_get_clean(), ['class' => 'table-responsive']);
+print div(ob_get_clean(), array('class' => 'table-responsive'));
 
