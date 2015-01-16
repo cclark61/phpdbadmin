@@ -20,7 +20,8 @@
 //=======================================================
 // Path to Framework Directory
 //=======================================================
-$config_arr["frame_path"] = __DIR__ . "/vendor/cclark61/phpOpenFW/framework";
+//$config_arr["frame_path"] = __DIR__ . "/vendor/cclark61/phpOpenFW/framework";
+$config_arr["frame_path"] = "phar://" . __DIR__ . '/vendor/cclark61/phpOpenFW/phpOpenFW.phar';
 
 //=======================================================
 // XML Nav Format (numeric (default), rewrite, long_url)
