@@ -11,6 +11,6 @@
     ],
     "require" : {
         "cclark61/phpOpenFW" : ">=1.2.3",
-        "cclark61/phpOpenPlugins" : ">=0.5.6"
+        "cclark61/phpOpenPlugins" : "dev-master"
     }
 }

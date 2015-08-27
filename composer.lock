@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d7b53cd8654b9cffb7489e0ab1c87fac",
+    "hash": "9d63420397202207886e09440671231a",
     "packages": [
         {
             "name": "cclark61/phpOpenFW",
@@ -29,11 +29,11 @@
         },
         {
             "name": "cclark61/phpOpenPlugins",
-            "version": "0.5.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cclark61/phpOpenPlugins.git",
-                "reference": "ee9ad004068680183c60860d4ad3b068d2b4168f"
+                "reference": "a8204e873438f04abc51cdcf729c7422d752c91c"
             },
             "dist": {
                 "type": "zip",
@@ -43,17 +43,20 @@
             },
             "type": "library",
             "support": {
-                "source": "https://github.com/cclark61/phpOpenPlugins/tree/0.5.6",
+                "source": "https://github.com/cclark61/phpOpenPlugins/tree/master",
                 "issues": "https://github.com/cclark61/phpOpenPlugins/issues"
             },
-            "time": "2014-08-28 14:39:21"
+            "time": "2015-08-27 14:42:16"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cclark61/phpopenplugins": 20
+    },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
