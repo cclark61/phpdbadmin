@@ -190,7 +190,7 @@ foreach ($tables as $table => $fields) {
 				array(
 					'data-ds' => $ds_key, 
 					'data-exists' => $exists,
-					'class' => "ds_rec_status {$tmp_class}"
+					'class' => "ds_rec_status no-wrap {$tmp_class}"
 				)
 			);
 		}
