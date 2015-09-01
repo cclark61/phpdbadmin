@@ -33,7 +33,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cclark61/phpOpenPlugins.git",
-                "reference": "a8204e873438f04abc51cdcf729c7422d752c91c"
+                "reference": "e4559d2c30b580ef836f7626afbefa158dfeb08b"
             },
             "dist": {
                 "type": "zip",
@@ -46,7 +46,7 @@
                 "source": "https://github.com/cclark61/phpOpenPlugins/tree/master",
                 "issues": "https://github.com/cclark61/phpOpenPlugins/issues"
             },
-            "time": "2015-08-27 14:42:16"
+            "time": "2015-09-01 19:13:36"
         }
     ],
     "packages-dev": [],
