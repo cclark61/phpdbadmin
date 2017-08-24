@@ -1,16 +1,11 @@
 {
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/cclark61/phpOpenFW"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/cclark61/phpOpenPlugins"
+            "type": "git",
+            "url": "https://github.com/phpopenfw/phpOpenFW2.git"
         }
     ],
     "require" : {
-        "cclark61/phpOpenFW" : ">=1.3.0",
-        "cclark61/phpOpenPlugins" : "dev-master"
+        "phpopenfw/phpOpenFW2" : "dev-master"
     }
 }
