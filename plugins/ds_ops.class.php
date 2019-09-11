@@ -249,7 +249,13 @@ class ds_ops
 				if ($value[$field_indices[$db1_type]['type']] != $db2_fields[$key][$field_indices[$db2_type]['type']]) { $match = 0; }
 				if ($value[$field_indices[$db1_type]['max_length']] != $db2_fields[$key][$field_indices[$db2_type]['max_length']]) { $match = 0; }
 				if ($value[$field_indices[$db1_type]['nullable']] != $db2_fields[$key][$field_indices[$db2_type]['nullable']]) { $match = 0; }
-				if ($value[$field_indices[$db1_type]['default']] != $db2_fields[$key][$field_indices[$db2_type]['default']]) { $match = 0; }
+                if ($value[$field_indices[$db1_type]['default']] != $db2_fields[$key][$field_indices[$db2_type]['default']]) {
+                    $def1 = strtolower($value[$field_indices[$db1_type]['default']]);
+                    $def2 = strtolower($db2_fields[$key][$field_indices[$db2_type]['default']]);
+                    if (stripos($def1, 'current_timestamp') === false || stripos($def2, 'current_timestamp') === false) {
+                        $match = 0;
+                    }
+                }
 	
 				$field_list[$key]['match'] = $match;
 				if ($match != 1) { $mismatches++; }
