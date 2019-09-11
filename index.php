@@ -1,14 +1,4 @@
 <?php
-
-/**
-* Main Application Controller
-*
-* @package		Controller
-* @subpackage	Application
-* @author 		Christian J. Clark
-* @version 		Started: 3-15-2006, Last updated: 4-19-2006
-**/
-
 //*************************************************************************
 //*************************************************************************
 // Main Application Controller
@@ -17,9 +7,16 @@
 define('MAIN_CONTROLLER', 1);
 
 //*************************************************************************
-// "Pseudo" Content Devlivery Network
+// Is Redirect URL Set?
 //*************************************************************************
-include('cdn.inc.php');
+if (!isset($_SERVER['REDIRECT_URL'])) {
+	$_SERVER['REDIRECT_URL'] = $_SERVER['REQUEST_URI'];
+}
+
+//*************************************************************************
+// Use Composers' Autoloader
+//*************************************************************************
+require('vendor/autoload.php');
 
 //*************************************************************************
 // Start the session
@@ -27,14 +24,6 @@ include('cdn.inc.php');
 session_start();
 
 //*************************************************************************
-// Load the configuration if necessary
+// Run
 //*************************************************************************
-if (!isset($_SESSION["frame_path"])) {
-	include(__DIR__ . "/config.inc.php");
-	$_SESSION["file_path"] = dirname(__FILE__);
-	include("{$config_arr['frame_path']}/main_controller.php");
-}
-else {
-	include("{$_SESSION['frame_path']}/main_controller.php");
-}
-
+\phpOpenFW\Framework\App::Run(__DIR__);

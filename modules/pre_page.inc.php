@@ -12,11 +12,12 @@
 //************************************************************
 
 //=========================================================================
-// Pre-page execution include file
+// Autoloader
 //=========================================================================
-load_plugin('content_gen');
-load_plugin('qdba');
-load_plugin('date_time');
-load_plugin('xhtml_gen');
-load_plugin('dio');
+spl_autoload_register('\phpOpenFW\Framework\Core::load_plugin');
+
+//=========================================================================
+// Globalize Methods
+//=========================================================================
+\phpOpenFW\Helpers\Globalize::All(['Utility' => 1]);
 

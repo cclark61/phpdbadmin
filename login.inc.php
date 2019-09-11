@@ -5,32 +5,24 @@
 //=========================================================================
 //=========================================================================
 
-load_plugin("qdba");
-load_plugin('build_mod_list');
+//=========================================================================
+// Autoloader
+//=========================================================================
+spl_autoload_register('\phpOpenFW\Framework\Core::load_plugin');
 
 //************************************************************
 // Set default data source
 //************************************************************
 if (isset($_SESSION['default_data_source'])) {
-	default_data_source($_SESSION['default_data_source']);
+	\phpOpenFW\Framework\Core::default_data_source($_SESSION['default_data_source']);
 }
-
-//************************************************************
-// Remember Data Sources
-//************************************************************
-$_SESSION['data_sources'] = array_keys($data_arr);
 
 //************************************************************
 // Plugin Folders
 //************************************************************
 if (isset($_SESSION['add_plugin_folder'])) {
-	set_plugin_folder($_SESSION['file_path'] . '/' . $_SESSION['add_plugin_folder']);
+	\phpOpenFW\Framework\Core::set_plugin_folder($_SESSION['file_path'] . '/' . $_SESSION['add_plugin_folder']);
 }
-
-//************************************************************
-// Set phpOpenPlugins Plugin Folder
-//************************************************************
-set_plugin_folder(__DIR__ . '/vendor/cclark61/phpOpenPlugins');
 
 //************************************************************
 // Server Side Validation Template
@@ -41,7 +33,7 @@ $_SESSION['ssv_template'] = __DIR__ . '/templates/ssv_messages.xsl';
 // Build a List of Modules
 //************************************************************
 $modules_list = array();
-build_mod_list($modules_list, __DIR__);
+phpDBAdmin::BuildModuleList($modules_list, __DIR__);
 $_SESSION['modules_list'] = $modules_list;
 
 //************************************************************
@@ -49,4 +41,3 @@ $_SESSION['modules_list'] = $modules_list;
 //************************************************************
 header("Location: /");
 exit;
-
