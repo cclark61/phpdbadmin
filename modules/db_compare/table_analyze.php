@@ -64,6 +64,18 @@ $table_comp_data["totals"] = $mfl["totals"];
 $table_comp_data["fields"] = $mfl["field_list"];
 
 //============================================================
+// Format fields if necessary
+//============================================================
+$fields = [];
+foreach ($table_comp_data["fields"] as $field_key => $field_data) {
+    if (is_numeric($field_key[0])) {
+        $field_key = '_' . $field_key;
+    }
+    $fields[$field_key] = $field_data;
+}
+$table_comp_data["fields"] = $fields;
+
+//============================================================
 // Transform / Output
 //============================================================
 $xml = array2xml("table_overview", $table_comp_data);
